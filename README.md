@@ -1,6 +1,6 @@
 # wRadio
 
-🍣 Wonderfully collaborative playlist building.
+🍣 Wonderfully collaborative playlist composition for teams.
 
 # Installation
 
