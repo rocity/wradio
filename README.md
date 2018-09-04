@@ -24,10 +24,10 @@ Run `yarn install`
 | Tech | Version |
 | ---- | ------- |
 | Node Version | `v9.10.0` |
-| Typescript | `2.7.2` |
+| Typescript | `2.9.2` |
 | NPM Version | `5.6.0` |
-| Angular CLI | `6.0.3` |
-| Angular | `6.0.2` |
+| Angular CLI | `6.1.5` |
+| Angular | `6.1.6` |
 | Package Manager | `yarn v0.27.5` |
 
 ## Development server
