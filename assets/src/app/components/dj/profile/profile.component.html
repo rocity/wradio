@@ -1,0 +1,27 @@
+<div class="container">
+  <div class="row">
+    <div class="column">
+      <h1>DJ Khaled</h1>
+      <p>BEATS 4 U.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <h2>Active Playlists</h2>
+      <div class="row">
+        <div *ngIf="!playlists || !playlists.length" class="column">
+          <p>DJ is not playing anything right now.</p>
+        </div>
+        <div *ngFor="let playlist of playlists" class="column column-25">
+          <div class="card playlist-card">
+            <h3>{{ playlist.title }}</h3>
+            <p><small>{{ playlist.intro }}</small></p>
+
+            <a href="#" class="button">Listen Now</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
