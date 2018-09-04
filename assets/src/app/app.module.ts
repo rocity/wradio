@@ -7,6 +7,8 @@ import { routerConfigFn } from './router.config';
 
 import { APP_STATES } from './app.states';
 
+import { SharedModule } from './shared/shared.module';
+
 @NgModule({
   declarations: [
     AppComponent
@@ -18,7 +20,9 @@ import { APP_STATES } from './app.states';
       otherwise: '/not-found',
       config: routerConfigFn,
     }),
-    BrowserModule
+    BrowserModule,
+
+    SharedModule,
   ],
   providers: [
     { provide: NgModuleFactoryLoader, useClass: SystemJsNgModuleLoader }

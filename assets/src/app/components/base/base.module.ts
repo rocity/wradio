@@ -6,11 +6,14 @@ import { LandingComponent } from './landing/landing.component';
 import { BaseComponent } from './base.component';
 
 import { BASE_STATES } from './base.states';
+import { SharedModule } from '../../shared/shared.module';
 
 @NgModule({
   imports: [
     UIRouterModule.forChild({ states: BASE_STATES }),
-    CommonModule
+    CommonModule,
+
+    SharedModule
   ],
   declarations: [LandingComponent, BaseComponent]
 })
