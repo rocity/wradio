@@ -1,0 +1,23 @@
+@import 'abstract/index';
+@import 'components/index';
+
+h1, h2, h3, h4, h5, h6, p, span, strong, em, li, small, a {
+  letter-spacing: 0.025rem !important;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  margin: 0;
+  margin-bottom: $footer-height;
+}
+
+section {
+  margin: 4rem auto;
+}
+
+small {
+  font-size: 1.50rem;
+}

@@ -1,0 +1,28 @@
+.base-header {
+  height: $base-header-height;
+  background-color: $color-primary;
+  padding: 8px 12px;
+  margin-bottom: 2rem;
+
+  padding-top: 18px;
+
+  .branding {
+    h1 {
+      font-size: 2.5rem;
+      color: $color-white;
+      font-weight: bolder;
+    }
+  }
+
+  .navigation {
+    ul {
+      margin-bottom: 0;
+
+      li {
+        a {
+          color: $color-white;
+        }
+      }
+    }
+  }
+}

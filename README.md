@@ -2,6 +2,10 @@
 
 🍣 Wonderfully collaborative playlist composition for teams.
 
+# Design
+
+![ColorScheme](./docs/images/pal.png)
+
 # Installation
 
 ## Django
