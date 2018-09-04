@@ -1,6 +1,6 @@
-# Django 2 + Angular 6 Seed Project
+# wRadio
 
-Contains a project that will let anyone start their own Django + Angular project right away.
+🍣 Wonderfully collaborative playlist building.
 
 # Installation
 
