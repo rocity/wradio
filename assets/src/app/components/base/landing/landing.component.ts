@@ -7,6 +7,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LandingComponent implements OnInit {
 
+  djs = [
+    {
+      name: 'DJ Khaled',
+      intro: 'Yo. Beats. Now.'
+    },
+    {
+      name: 'Cholord',
+      intro: 'Chillax'
+    },
+    {
+      name: 'Patty Tiu',
+      intro: 'Dudududu.'
+    }
+  ]
+
   constructor() { }
 
   ngOnInit() {
